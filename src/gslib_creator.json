@@ -1,0 +1,18 @@
+{
+  "configs": [
+    {
+      "watch": true,
+      "inPointName": "tmpl_public",
+      "fromPaths": [ "./partials/common", "./partials/public" ],
+      "targetPath": "src",
+      "gsIndexPath": "../gs/core/index"
+    },
+    {
+      "inPointName": "tmpl_admin",
+      "fromPaths": [ "./partials/common", "./partials/admin" ],
+      "targetPath": "src",
+      "gsIndexPath": "../gs/core/index"
+    }
+  ]
+
+}
