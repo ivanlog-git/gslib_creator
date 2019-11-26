@@ -1,6 +1,6 @@
 {
   "name": "gslib_creator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide auto creating js classes from html templates for gslib.",
   "main": "app.js",
   "scripts": {
@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/ivanlog-git/gslib_creator/issues"
   },
-  "homepage": "https://github.com/ivanlog-git/gslib_creator#readme",
-  "dependencies": {
-    "jsdoc": "^3.6.3"
-  }
+  "homepage": "https://github.com/ivanlog-git/gslib_creator#readme"
 }
