@@ -237,21 +237,19 @@ class FolderGS
     }        
 }
 
-function gslib_creator()
-{
-	let configs;
-	try {
-		let data = fs.readFileSync('./gslib_creator.json');
-		configs = new Configs(JSON.parse(data));
-	} catch (e) {    
-		console.log(e.message);
-		console.log('Error reading gslib_creator.json file. Stoped...'); return;
-	}
 
-	configs.configs.forEach(config =>
-	{
-		let agr = new FolderGS(config, config.inPointName, null, true);
-		config.fromPaths.forEach(path => agr.folders.push(new FolderGS(config, path)));
-		agr.save();
-	});
+let configs;
+try {
+	let data = fs.readFileSync('./gslib_creator.json');
+	configs = new Configs(JSON.parse(data));
+} catch (e) {    
+	console.log(e.message);
+	console.log('Error reading gslib_creator.json file. Stoped...'); return;
 }
+
+configs.configs.forEach(config =>
+{
+	let agr = new FolderGS(config, config.inPointName, null, true);
+	config.fromPaths.forEach(path => agr.folders.push(new FolderGS(config, path)));
+	agr.save();
+});

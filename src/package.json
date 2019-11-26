@@ -1,6 +1,6 @@
 {
   "name": "gslib_creator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provide auto creating js classes from html templates for gslib.",
   "main": "app.js",
   "scripts": {
