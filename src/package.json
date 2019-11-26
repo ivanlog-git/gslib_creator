@@ -1,0 +1,26 @@
+{
+  "name": "gslib_creator",
+  "version": "1.0.0",
+  "description": "Provide auto creating js classes from html templates for gslib.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivanlog-git/gslib_creator.git"
+  },
+  "keywords": [
+    "gslib",
+    "templates"
+  ],
+  "author": "Tyaglov Ivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanlog-git/gslib_creator/issues"
+  },
+  "homepage": "https://github.com/ivanlog-git/gslib_creator#readme",
+  "dependencies": {
+    "jsdoc": "^3.6.3"
+  }
+}
